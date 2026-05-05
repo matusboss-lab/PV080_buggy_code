@@ -18,7 +18,9 @@ class Person(object):
     def __init__(self, name):
         self.name = name
 
-
+"""
+    Prints nametag
+"""
 def print_nametag(format_string, person):
     print(format_string.format(person=person))
 
